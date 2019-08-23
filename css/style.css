@@ -1,0 +1,500 @@
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/myriadpro-regular.eot');
+    src: url('../fonts/myriadpro-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/myriadpro-regular.woff2') format('woff2'), url('../fonts/myriadpro-regular.woff') format('woff'), url('../fonts/myriadpro-regular.ttf') format('truetype'), url('../fonts/myriadpro-regular.svg#myriadpro-regular') format('svg');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'MyriadPro-Regular', Arial;
+    color: black;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #d65ee8;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+table {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 4%;
+}
+
+button {
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em 2em;
+    border-radius: 30px;
+    background: #70b8d9;
+    outline: none;
+}
+
+section {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    background: white;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+.title-text {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 80%;
+}
+
+.green-text {
+    color: #59d56d;
+}
+
+.pink-text {
+    color: #d65ee8;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.line {
+    width: 100px;
+    border-bottom: 1px solid #d65ee8;
+}
+
+
+/* top-block */
+
+.top-block {
+    background-image: url(../images/bg2.png);
+    background-size: cover;
+    height: 1200px;
+    font-size: 120%;
+}
+
+.logo {
+    padding-top: 15px;
+    position: absolute;
+    left: 25px;
+}
+
+.main-menu {
+    text-transform: uppercase;
+    padding-top: 2%;
+    padding-left: 35%;
+    font-weight: bold;
+}
+
+.main-menu ul {
+    list-style: none;
+}
+
+.main-menu li {
+    float: left;
+    margin-right: 4em;
+}
+
+.main-menu .phone {
+    float: right;
+    color: #d65ee8;
+}
+
+.main-promo {
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 150%;
+}
+
+#choose-production a:hover {
+    color: black;
+}
+
+
+/* About milk */
+
+.about-milk {
+    font-size: 170%;
+    height: 1000px;
+    margin-top: 5%;
+}
+
+.about-milk td {
+    width: 33.33vw;
+    text-align: left;
+}
+
+.why-we {
+    padding-top: 2%;
+    width: 100%;
+}
+
+.why-we .normal-text {
+    margin: 5% 10% 10% 18%;
+}
+
+.why-we .title-text {
+    margin: 5% 10%;
+}
+
+
+/* Productions */
+
+.productions {
+    height: 110vh;
+    background: #ecf9ff;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 4%;
+    font-size: 170%;
+}
+
+.productions h2 {
+    padding-bottom: 1%;
+}
+
+.price {
+    color: #d65ee8;
+}
+
+#btn-prod {
+    margin-top: 5%;
+    width: 32vh;
+    font-weight: normal;
+    font-size: 80%;
+}
+
+#product-name {
+    font-weight: bolder;
+}
+
+.category-table {
+    padding-top: 2%;
+    padding-bottom: 7%;
+    text-transform: uppercase;
+}
+
+.productions-table div {
+    height: 100%;
+    background: white;
+    margin: 1em;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+/* Callback form */
+
+#modal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.81);
+    z-index: 5;
+    display: none;
+}
+
+.callBack {
+    position: relative;
+    max-width: 400px;
+    margin: 50px auto 0;
+    background: white;
+    border-radius: 30px;
+    /* display: none; */
+}
+
+.callBack-left-decoration,
+.callBack-right-decoration {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background: #ecf9ff;
+    border-radius: 20px;
+}
+
+.callBack-left-decoration {
+    bottom: 60px;
+    left: -30px;
+}
+
+.callBack-right-decoration {
+    top: 60px;
+    right: -30px;
+}
+
+.callBack-left-decoration:before,
+.callBack-left-decoration:after,
+.callBack-right-decoration:before,
+.callBack-right-decoration:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    background: white;
+}
+
+.callBack-left-decoration:before {
+    top: -20px;
+}
+
+.callBack-left-decoration:after {
+    top: 20px;
+    left: 10px;
+}
+
+.callBack-right-decoration:before {
+    top: -20px;
+    right: 0;
+}
+
+.callBack-right-decoration:after {
+    top: 20px;
+    right: 10px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+}
+
+.callBack-inner {
+    padding: 50px;
+}
+
+.callBack-inner input,
+.callBack-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'MyriadPro-Regular', sans-serif;
+}
+
+.callBack-inner input[type="submit"] {
+    margin-top: 30px;
+    background: #ecf9ff;
+    border-bottom: 2px solid #707981;
+    color: #707981;
+    font-size: 14px;
+}
+
+.callBack-inner textarea {
+    resize: none;
+}
+
+.callBack-inner h3 {
+    margin-top: 0;
+    font-family: 'MyriadPro-Regular', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #707981;
+}
+
+
+/* Delivery and payments */
+
+.delivery-and-payment {
+    text-align: center;
+    height: 90vh;
+    font-size: 170%;
+}
+
+.delivery-and-payment h2 {
+    padding-bottom: 3%;
+}
+
+.delivery-offer {
+    padding-bottom: 3%;
+}
+
+.waveDelivery {
+    background: #ecf9ff;
+}
+
+.delivery-and-payment table {
+    width: 80%;
+}
+
+.delivery-and-payment td {
+    padding: 0 2em;
+    width: 30%;
+    text-align: left;
+}
+
+#orange-arrow {
+    padding-left: 25vw;
+    float: left;
+}
+
+#blue-arrow {
+    padding-right: 30vw;
+    float: right;
+}
+
+
+/* Subscription */
+
+.subscription {
+    overflow: hidden;
+    height: 100vh;
+    background: #ecf9ff;
+    font-size: 170%;
+}
+
+.subscription table {
+    width: 90%;
+}
+
+.subscription td {
+    padding: 0 2em;
+}
+
+.subscription td:last-child {
+    width: 50%;
+}
+
+
+/* Feedback */
+
+.feedback {
+    padding: 0;
+    margin: 0;
+    height: 90vh;
+    width: 100%;
+    font-size: 170%;
+}
+
+.feedback td {
+    vertical-align: top;
+    width: 50%;
+}
+
+.right-column {
+    text-align: left;
+}
+
+.feedback h2 {
+    padding-bottom: 5%;
+}
+
+.feedback .bold-text {
+    padding-top: 5%;
+}
+
+#feedback-author {
+    margin: 0;
+    padding-top: 7%;
+    font-size: 120%;
+    color: #d65ee8;
+}
+
+#feedback-profession {
+    margin: 0;
+    padding-top: 3%;
+    text-transform: uppercase;
+}
+
+
+/* Contacts */
+
+.contacts {
+    overflow: hidden;
+    padding-left: 10%;
+    height: 80vh;
+    background: #ecf9ff;
+    font-size: 170%;
+}
+
+.contacts h2 {
+    margin: 0;
+    padding-bottom: 7%;
+}
+
+.map {
+    float: right;
+    margin: 0;
+    padding: 5% 7% 7% 3%;
+}
+
+.contact-type {
+    margin: 0;
+    padding-top: 4%;
+}
+
+.contact-type+p {
+    margin-bottom: 0;
+    margin-top: 1vh;
+}
+
+#waveFooter {
+    position: absolute;
+    bottom: 0;
+}
+
+#waveDelivery path {
+    fill: white;
+}
+
+#waveDelivery {
+    position: absolute;
+    bottom: 0;
+}
+
+#waveFooter path {
+    fill: #ecf9ff;
+}
+
+
+/* Button-up */
+
+.scrollup {
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+    text-indent: -9999px;
+    background: url('../images/up-arrow.png') no-repeat;
+    z-index: 2;
+}
